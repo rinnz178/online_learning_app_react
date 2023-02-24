@@ -1,0 +1,131 @@
+.course_main {
+    min-height: 92vh;
+}
+
+.head_one {
+    font-weight: 700;
+    font-size: 14px;
+    color: #ddab06;
+    text-align: center;
+}
+
+.head_two {
+    font-size: 45px;
+    font-weight: 280;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.input-group-text {
+    background-color: #515ffc;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.input-group-text img {
+    width: 27px;
+    padding: 3px
+}
+
+.form-control {
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    padding: 10px;
+
+}
+
+.form-control::placeholder {
+    color: #828282;
+    opacity: 1;
+}
+
+.body {
+    justify-content: center;
+    margin: auto;
+    padding: 50px;
+
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    height: 26vh;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin-bottom: 22px;
+    cursor: pointer;
+
+}
+
+.card img {
+    width: 60px;
+    border-radius: 14px;
+    margin: auto;
+
+}
+
+.card p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.see_all_courses {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 768px) {
+    .head_two {
+        font-size: 24px;
+        font-weight: 280;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .input-group-text img {
+        width: 27px;
+        padding: 3px
+    }
+
+    .body {
+        justify-content: center;
+        margin: auto;
+        padding: 0px;
+
+    }
+
+    .card {
+        background-color: rgb(255, 255, 255);
+        height: 16vh;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .card img {
+        width: 40px;
+        border-radius: 10px;
+        margin-bottom: -3px;
+        margin-top: -3px;
+
+
+    }
+
+    .card p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .see_all_courses {
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}

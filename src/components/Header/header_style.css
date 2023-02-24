@@ -1,0 +1,36 @@
+.header {
+    background-color: #ffd649;
+    text-align: center;
+    padding: 8px;
+}
+.header .long {
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+.header .long span {
+    font-weight: 700;
+    cursor: pointer;
+}
+.close {
+    width: 10px;
+    cursor: pointer;
+ 
+}
+.content{
+    width: 2%;
+    float: right
+}
+
+@media screen and (max-width: 768px) {
+    .header .long {
+        text-align: center;
+        padding: 8px;
+        font-size: 11px;
+    }
+    .content{
+        width: 5%;
+        float: right
+    }
+    
+}

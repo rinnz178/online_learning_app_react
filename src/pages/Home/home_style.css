@@ -1,0 +1,380 @@
+.left_side {
+    margin-top: 10vh;
+
+}
+
+.left_side .top_text {
+    font-weight: bold;
+    color: #ddab06;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.left_side .text_one {
+    font-size: 65px;
+    font-weight: 300;
+    margin-bottom: -10px;
+}
+
+.left_side .text_two {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.left_side .text_three {
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: -10px;
+}
+
+.left_side .text_four {
+    font-size: 17px;
+    margin: 15px 0px 20px;
+    color: gray;
+
+}
+
+.right_side {
+    justify-content: center;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.right_side img {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.join_for_free {
+    background-color: #ffd649;
+    border-radius: 50px;
+    padding: 12px 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.play_btn {
+    width: 50px;
+    padding-bottom: 4px;
+    margin-left: 16px;
+
+}
+
+.play_btn_text {
+    font-weight: 700;
+    font-size: 13px;
+    margin: 6px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+.page_down {
+    position: fixed;
+    z-index: 1;
+    margin-top: 74vh;
+    right: 0;
+    margin-right: 20px;
+}
+
+.down_arrow {
+    width: 50px;
+    cursor: pointer;
+}
+
+.sec_home {
+    background-color: #515ffc;
+    margin-top: 14vh;
+    padding: 40px
+}
+
+.sec_home .col-6 {
+    text-align: center;
+}
+
+.sec_head {
+    font-size: 50px;
+    font-weight: 500;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.sec_footer {
+    font-size: 20px;
+    font-weight: 300;
+    color: aliceblue;
+    margin-top: -20vh;
+}
+
+.trd_home {
+    margin-top: 7vh;
+    justify-content: center;
+    transition: linear;
+}
+
+.why_choose_us {
+    color: #ddab06;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wcu_one {
+    font-size: 40px;
+    margin-top: -10px;
+    text-align: center;
+    font-weight: 260;
+}
+
+.h_card {
+    background-color: rgb(255, 255, 255);
+    ;
+    border: none;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.5s;
+    height: 244px;
+    margin-bottom: 40px;
+    /* margin: 20px; */
+
+}
+
+.trd_img {
+    width: 56px;
+    border-radius: 10px;
+}
+
+.h_card p {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.card_row {
+    width: 90%;
+    margin: auto;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 7px rgb(76, 124, 255);
+}
+
+
+/* ---------- md screen ----------- */
+@media screen and (max-width: 1200px) {
+    .left_side {
+        margin-top: 4vh;
+        text-align: center;
+    }
+
+    .left_side .top_text {
+        font-weight: bold;
+        color: #ddab06;
+        font-size: 15px;
+        margin-bottom: -4px;
+    }
+
+    .left_side .text_one {
+        font-size: 45px;
+        font-weight: 300;
+        margin-bottom: -5px;
+    }
+
+    .left_side .text_two {
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+
+    .left_side .text_three {
+        font-size: 45px;
+        font-weight: 300;
+        margin-bottom: -10px;
+    }
+
+    .left_side .text_four {
+        font-size: 13px;
+        margin: 20px 0px 20px;
+        color: gray;
+    }
+
+    .right_side {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .right_side img {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .h_card {
+        background-color: rgb(255, 255, 255);
+        ;
+        border: none;
+        padding: auto;
+        border-radius: 15px;
+        margin-bottom: 20px;
+
+    }
+
+    .h_card span {
+        font-size: 13px;
+    }
+
+    .trd_img {
+        width: 50px;
+        border-radius: 10px;
+    }
+
+    .h_card p {
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .left_side {
+        margin-top: 4vh;
+        text-align: center;
+    }
+
+    .left_side .top_text {
+        font-weight: bold;
+        color: #ddab06;
+        font-size: 15px;
+        margin-bottom: -4px;
+    }
+
+    .left_side .text_one {
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: -5px;
+    }
+
+    .left_side .text_two {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: -5px;
+    }
+
+    .left_side .text_three {
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: -10px;
+    }
+
+    .right_side {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .right_side img {
+        width: 100%;
+        justify-content: center;
+        padding: 70px;
+        margin-bottom: -80px;
+        margin-top: -65px;
+
+    }
+
+    .page_down {
+        position: fixed;
+        z-index: 1;
+        margin-top: 77vh;
+        right: 0;
+        margin-right: 13px;
+    }
+
+    .down_arrow {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .down_arrow :hover {
+        opacity: 70%;
+    }
+
+    .why_choose_us {
+        color: #ddab06;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .wcu_one {
+        font-size: 30px;
+        margin-top: -10px;
+        text-align: center;
+        font-weight: 260;
+    }
+
+    .h_card {
+        background-color: rgb(255, 255, 255);
+        ;
+        border: none;
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        height: auto;
+
+
+    }
+
+    .trd_img {
+        width: 45px;
+        border-radius: 10px;
+    }
+
+    .h_card p {
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .h_card span {
+        font-size: 13px;
+    }
+
+    .card_row {
+        width: 100%;
+        margin: auto;
+    }
+
+    .one_on_one {
+        font-size: 10px;
+    }
+
+    .h_card p {
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .h_card span {
+        font-size: 15px;
+        color: gray;
+    }
+    .sec_home {
+        background-color: #515ffc;
+        margin-top: 5vh;
+        padding: 40px
+    }
+
+    .sec_head {
+        font-size: 30px;
+        font-weight: 500;
+        color: aliceblue;
+    }
+
+    .sec_footer {
+        font-size: 14px;
+        font-weight: 300;
+        color: aliceblue;
+        margin-top: -20vh;
+    }
+}
